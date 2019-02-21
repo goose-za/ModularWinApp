@@ -3,7 +3,43 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularWinApp", "ModularWinApp\ModularWinApp.csproj", "{1641A872-F347-4056-BD1D-A6E7F50B39FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularWinApp.Core", "ModularWinApp.Core\ModularWinApp.Core.csproj", "{4C44F338-9172-4AF2-BEC3-EF5DB22E7574}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularWinApp.Modules.Clients", "ModularWinApp.Modules.Clients\ModularWinApp.Modules.Clients.csproj", "{969B8ED0-FB56-4816-8DA0-E720693B692C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularWinApp.Modules.Orders", "ModularWinApp.Modules.Orders\ModularWinApp.Modules.Orders.csproj", "{099FD083-BF80-4517-9940-F191C87385A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularWinApp.Modules.Products", "ModularWinApp.Modules.Products\ModularWinApp.Modules.Products.csproj", "{371DE9D9-9CFE-4F47-912F-24D1AE263A99}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1641A872-F347-4056-BD1D-A6E7F50B39FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1641A872-F347-4056-BD1D-A6E7F50B39FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1641A872-F347-4056-BD1D-A6E7F50B39FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1641A872-F347-4056-BD1D-A6E7F50B39FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C44F338-9172-4AF2-BEC3-EF5DB22E7574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C44F338-9172-4AF2-BEC3-EF5DB22E7574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C44F338-9172-4AF2-BEC3-EF5DB22E7574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C44F338-9172-4AF2-BEC3-EF5DB22E7574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{969B8ED0-FB56-4816-8DA0-E720693B692C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{969B8ED0-FB56-4816-8DA0-E720693B692C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{969B8ED0-FB56-4816-8DA0-E720693B692C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{969B8ED0-FB56-4816-8DA0-E720693B692C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{099FD083-BF80-4517-9940-F191C87385A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{099FD083-BF80-4517-9940-F191C87385A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{099FD083-BF80-4517-9940-F191C87385A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{099FD083-BF80-4517-9940-F191C87385A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{371DE9D9-9CFE-4F47-912F-24D1AE263A99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{371DE9D9-9CFE-4F47-912F-24D1AE263A99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{371DE9D9-9CFE-4F47-912F-24D1AE263A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{371DE9D9-9CFE-4F47-912F-24D1AE263A99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
