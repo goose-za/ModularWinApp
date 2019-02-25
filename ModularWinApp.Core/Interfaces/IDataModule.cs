@@ -4,7 +4,7 @@ namespace ModularWinApp.Core.Interfaces
 {
     public interface IDataModule
     {
-        void CreateSharedConnection();
+        void CreateSharedConnection(string connectionString_);
         IDbConnection GetSharedConnection();
         void OpenSharedConnection();
         void CloseSharedConnection();
