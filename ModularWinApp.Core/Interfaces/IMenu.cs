@@ -4,6 +4,6 @@ namespace ModularWinApp.Core.Interfaces
 {
     public interface IMenu
     {
-        ToolStripMenuItem WinformsMenu { get; }
+        ToolStripMenuItem WinFormsMenu { get; }
     }
 }
