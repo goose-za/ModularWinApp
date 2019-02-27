@@ -8,6 +8,13 @@ using System.Windows.Forms;
 
 namespace ModularWinApp
 {
+    /// <summary>
+    /// The application entry point is in the Program static class. 
+    /// This static class will keep a single instance of ModuleHandler. 
+    /// Before calling the main form, the InitializeModules method of 
+    /// the ModuleHandler is called to load the modules, the core,
+    /// and the Host.
+    /// </summary>
     static class Program
     {
         //Create a new instance of ModuleHandler. Only one must exist.

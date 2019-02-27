@@ -10,6 +10,18 @@ using System.Threading.Tasks;
 
 namespace ModularWinApp.Core
 {
+    /// <summary>
+    /// <para>
+    /// The ModuleHandler class is the main class of the core. 
+    /// It is responsible for loading modules, exposing the list 
+    /// of loaded modules, exposing the list of loaded menus, 
+    /// and exposing the host to the modules. 
+    /// </para>
+    /// <para>
+    /// This class also provides methods to check and retrieve 
+    /// the instance of each loaded module.
+    /// </para>
+    /// </summary>
     [Export(typeof(IModuleHandler))]
     public class ModuleHandler : IDisposable, IModuleHandler
     {

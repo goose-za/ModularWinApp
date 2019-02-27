@@ -12,6 +12,18 @@ using ModularWinApp.Core.Interfaces;
 
 namespace ModularWinApp
 {
+    /// <summary>
+    /// <para>
+    /// The Host is the main form; in this case, 
+    /// it is an MDI parent. 
+    /// </para>
+    /// <para>
+    /// In this form, there 
+    /// is a MainMenu where the modules will insert 
+    /// the menus. The module can decide whether 
+    /// the form it presents is an MDI child or not.
+    /// </para>
+    /// </summary>
     [Export(typeof(IHost))]
     public partial class frmHost : Form, IHost
     {
